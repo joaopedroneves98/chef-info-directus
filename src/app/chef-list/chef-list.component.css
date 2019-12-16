@@ -1,0 +1,18 @@
+.example-card {
+    max-width: 200px;
+    margin: 5px;
+  }
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  margin: auto 20px;
+}
+
+.content-link {
+  font-style: italic;
+  font-size: small;
+  margin-left: 10px;
+  color: grey;
+}
